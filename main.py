@@ -1,7 +1,7 @@
 import PyPDF2
 
-path = '/home/cisco/Downloads/Leader.pdf'
-newpath = '/home/cisco/result.txt'
+path = './Leader.pdf'
+newpath = './result.txt'
 
 reader = PyPDF2.PdfReader(path)
 pag = 0
